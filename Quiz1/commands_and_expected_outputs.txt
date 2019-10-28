@@ -1,0 +1,380 @@
+TEST 1 BEGIN
+$ echo 34 1 | python3 quiz_1.py
+Enter two integers: 34 1
+
+The generated mapping is:
+   {1: 1}
+
+The mappings's so-called "keys" make up a set whose number of elements is 1.
+
+The list of integers between 1 and 1 that are not keys of the mapping is:
+   []
+
+Represented as a list, the mapping is:
+   [None, 1]
+
+The one-to-one part of the mapping is:
+   {1: 1}
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 35 2 | python3 quiz_1.py
+Enter two integers: 35 2
+
+The generated mapping is:
+   {}
+
+The mappings's so-called "keys" make up a set whose number of elements is 0.
+
+The list of integers between 1 and 2 that are not keys of the mapping is:
+   [1, 2]
+
+Represented as a list, the mapping is:
+   [None, None, None]
+
+The one-to-one part of the mapping is:
+   {}
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 36 3 | python3 quiz_1.py
+Enter two integers: 36 3
+
+The generated mapping is:
+   {1: 3, 2: 2}
+
+The mappings's so-called "keys" make up a set whose number of elements is 2.
+
+The list of integers between 1 and 3 that are not keys of the mapping is:
+   [3]
+
+Represented as a list, the mapping is:
+   [None, 3, 2, None]
+
+The one-to-one part of the mapping is:
+   {1: 3, 2: 2}
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo 37 4 | python3 quiz_1.py
+Enter two integers: 37 4
+
+The generated mapping is:
+   {1: 3, 2: 3}
+
+The mappings's so-called "keys" make up a set whose number of elements is 2.
+
+The list of integers between 1 and 4 that are not keys of the mapping is:
+   [3, 4]
+
+Represented as a list, the mapping is:
+   [None, 3, 3, None, None]
+
+The one-to-one part of the mapping is:
+   {}
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 38 5 | python3 quiz_1.py
+Enter two integers: 38 5
+
+The generated mapping is:
+   {2: 1, 3: 3}
+
+The mappings's so-called "keys" make up a set whose number of elements is 2.
+
+The list of integers between 1 and 5 that are not keys of the mapping is:
+   [1, 4, 5]
+
+Represented as a list, the mapping is:
+   [None, None, 1, 3, None, None]
+
+The one-to-one part of the mapping is:
+   {2: 1, 3: 3}
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo 40 6 | python3 quiz_1.py
+Enter two integers: 40 6
+
+The generated mapping is:
+   {1: 2, 2: 1, 5: 2, 6: 5}
+
+The mappings's so-called "keys" make up a set whose number of elements is 4.
+
+The list of integers between 1 and 6 that are not keys of the mapping is:
+   [3, 4]
+
+Represented as a list, the mapping is:
+   [None, 2, 1, None, None, 2, 5]
+
+The one-to-one part of the mapping is:
+   {2: 1, 6: 5}
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 43 7 | python3 quiz_1.py
+Enter two integers: 43 7
+
+The generated mapping is:
+   {1: 2, 2: 4, 3: 4, 4: 7, 7: 2}
+
+The mappings's so-called "keys" make up a set whose number of elements is 5.
+
+The list of integers between 1 and 7 that are not keys of the mapping is:
+   [5, 6]
+
+Represented as a list, the mapping is:
+   [None, 2, 4, 4, 7, None, None, 2]
+
+The one-to-one part of the mapping is:
+   {4: 7}
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo 45 8 | python3 quiz_1.py
+Enter two integers: 45 8
+
+The generated mapping is:
+   {2: 1, 4: 4, 5: 4, 6: 8, 8: 5}
+
+The mappings's so-called "keys" make up a set whose number of elements is 5.
+
+The list of integers between 1 and 8 that are not keys of the mapping is:
+   [1, 3, 7]
+
+Represented as a list, the mapping is:
+   [None, None, 1, None, 4, 4, 8, None, 5]
+
+The one-to-one part of the mapping is:
+   {2: 1, 6: 8, 8: 5}
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo 46 9 | python3 quiz_1.py
+Enter two integers: 46 9
+
+The generated mapping is:
+   {3: 1, 4: 3, 5: 2, 6: 4, 9: 3}
+
+The mappings's so-called "keys" make up a set whose number of elements is 5.
+
+The list of integers between 1 and 9 that are not keys of the mapping is:
+   [1, 2, 7, 8]
+
+Represented as a list, the mapping is:
+   [None, None, None, 1, 3, 2, 4, None, None, 3]
+
+The one-to-one part of the mapping is:
+   {3: 1, 5: 2, 6: 4}
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo 47 10 | python3 quiz_1.py
+Enter two integers: 47 10
+
+The generated mapping is:
+   {1: 4, 3: 3, 4: 10, 6: 7, 10: 9}
+
+The mappings's so-called "keys" make up a set whose number of elements is 5.
+
+The list of integers between 1 and 10 that are not keys of the mapping is:
+   [2, 5, 7, 8, 9]
+
+Represented as a list, the mapping is:
+   [None, 4, None, 3, 10, None, 7, None, None, None, 9]
+
+The one-to-one part of the mapping is:
+   {1: 4, 3: 3, 4: 10, 6: 7, 10: 9}
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo 49 11 | python3 quiz_1.py
+Enter two integers: 49 11
+
+The generated mapping is:
+   {1: 9, 2: 2, 3: 5, 4: 1, 5: 9, 6: 4, 8: 11, 9: 4, 10: 1, 11: 11}
+
+The mappings's so-called "keys" make up a set whose number of elements is 10.
+
+The list of integers between 1 and 11 that are not keys of the mapping is:
+   [7]
+
+Represented as a list, the mapping is:
+   [None, 9, 2, 5, 1, 9, 4, None, 11, 4, 1, 11]
+
+The one-to-one part of the mapping is:
+   {2: 2, 3: 5}
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo 50 12 | python3 quiz_1.py
+Enter two integers: 50 12
+
+The generated mapping is:
+   {2: 9, 3: 10, 7: 10, 8: 1, 9: 5, 10: 10, 11: 7, 12: 10}
+
+The mappings's so-called "keys" make up a set whose number of elements is 8.
+
+The list of integers between 1 and 12 that are not keys of the mapping is:
+   [1, 4, 5, 6]
+
+Represented as a list, the mapping is:
+   [None, None, 9, 10, None, None, None, 10, 1, 5, 10, 7, 10]
+
+The one-to-one part of the mapping is:
+   {2: 9, 8: 1, 9: 5, 11: 7}
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo 51 13 | python3 quiz_1.py
+Enter two integers: 51 13
+
+The generated mapping is:
+   {1: 1, 3: 9, 4: 8, 5: 4, 6: 6, 10: 6, 12: 4, 13: 7}
+
+The mappings's so-called "keys" make up a set whose number of elements is 8.
+
+The list of integers between 1 and 13 that are not keys of the mapping is:
+   [2, 7, 8, 9, 11]
+
+Represented as a list, the mapping is:
+   [None, 1, None, 9, 8, 4, 6, None, None, None, 6, None, 4, 7]
+
+The one-to-one part of the mapping is:
+   {1: 1, 3: 9, 4: 8, 13: 7}
+TEST 13 END
+
+TEST 14 BEGIN
+$ echo 52 14 | python3 quiz_1.py
+Enter two integers: 52 14
+
+The generated mapping is:
+   {1: 11, 3: 6, 4: 8, 5: 14, 6: 7, 7: 14, 8: 8, 9: 3, 10: 6, 14: 3}
+
+The mappings's so-called "keys" make up a set whose number of elements is 10.
+
+The list of integers between 1 and 14 that are not keys of the mapping is:
+   [2, 11, 12, 13]
+
+Represented as a list, the mapping is:
+   [None, 11, None, 6, 8, 14, 7, 14, 8, 3, 6, None, None, None, 3]
+
+The one-to-one part of the mapping is:
+   {1: 11, 6: 7}
+TEST 14 END
+
+TEST 15 BEGIN
+$ echo 53 15 | python3 quiz_1.py
+Enter two integers: 53 15
+
+The generated mapping is:
+   {2: 6, 3: 9, 4: 1, 5: 7, 6: 7, 7: 4, 9: 6, 10: 2, 11: 10, 12: 15, 13: 4, 15: 15}
+
+The mappings's so-called "keys" make up a set whose number of elements is 12.
+
+The list of integers between 1 and 15 that are not keys of the mapping is:
+   [1, 8, 14]
+
+Represented as a list, the mapping is:
+   [None, None, 6, 9, 1, 7, 7, 4, None, 6, 2, 10, 15, 4, None, 15]
+
+The one-to-one part of the mapping is:
+   {3: 9, 4: 1, 10: 2, 11: 10}
+TEST 15 END
+
+TEST 16 BEGIN
+$ echo 54 16 | python3 quiz_1.py
+Enter two integers: 54 16
+
+The generated mapping is:
+   {4: 14, 7: 14, 11: 2, 12: 14, 13: 12, 14: 6, 15: 8, 16: 3}
+
+The mappings's so-called "keys" make up a set whose number of elements is 8.
+
+The list of integers between 1 and 16 that are not keys of the mapping is:
+   [1, 2, 3, 5, 6, 8, 9, 10]
+
+Represented as a list, the mapping is:
+   [None, None, None, None, 14, None, None, 14, None, None, None, 2, 14, 12, 6, 8, 3]
+
+The one-to-one part of the mapping is:
+   {11: 2, 13: 12, 14: 6, 15: 8, 16: 3}
+TEST 16 END
+
+TEST 17 BEGIN
+$ echo 55 17 | python3 quiz_1.py
+Enter two integers: 55 17
+
+The generated mapping is:
+   {1: 8, 3: 6, 4: 11, 5: 7, 7: 15, 8: 8, 9: 4, 10: 13, 13: 2, 14: 10, 16: 1, 17: 11}
+
+The mappings's so-called "keys" make up a set whose number of elements is 12.
+
+The list of integers between 1 and 17 that are not keys of the mapping is:
+   [2, 6, 11, 12, 15]
+
+Represented as a list, the mapping is:
+   [None, 8, None, 6, 11, 7, None, 15, 8, 4, 13, None, None, 2, 10, None, 1, 11]
+
+The one-to-one part of the mapping is:
+   {3: 6, 5: 7, 7: 15, 9: 4, 10: 13, 13: 2, 14: 10, 16: 1}
+TEST 17 END
+
+TEST 18 BEGIN
+$ echo 57 18 | python3 quiz_1.py
+Enter two integers: 57 18
+
+The generated mapping is:
+   {1: 8, 4: 13, 5: 10, 9: 4, 10: 2, 11: 1, 13: 15, 14: 18, 16: 4, 17: 15, 18: 9}
+
+The mappings's so-called "keys" make up a set whose number of elements is 11.
+
+The list of integers between 1 and 18 that are not keys of the mapping is:
+   [2, 3, 6, 7, 8, 12, 15]
+
+Represented as a list, the mapping is:
+   [None, 8, None, None, 13, 10, None, None, None, 4, 2, 1, None, 15, 18, None, 4, 15, 9]
+
+The one-to-one part of the mapping is:
+   {1: 8, 4: 13, 5: 10, 10: 2, 11: 1, 14: 18, 18: 9}
+TEST 18 END
+
+TEST 19 BEGIN
+$ echo 59 19 | python3 quiz_1.py
+Enter two integers: 59 19
+
+The generated mapping is:
+   {3: 8, 7: 15, 8: 5, 9: 4, 10: 18, 12: 18, 14: 15, 15: 19, 16: 17, 18: 11, 19: 17}
+
+The mappings's so-called "keys" make up a set whose number of elements is 11.
+
+The list of integers between 1 and 19 that are not keys of the mapping is:
+   [1, 2, 4, 5, 6, 11, 13, 17]
+
+Represented as a list, the mapping is:
+   [None, None, None, 8, None, None, None, 15, 5, 4, 18, None, 18, None, 15, 19, 17, None, 11, 17]
+
+The one-to-one part of the mapping is:
+   {3: 8, 8: 5, 9: 4, 15: 19, 18: 11}
+TEST 19 END
+
+TEST 20 BEGIN
+$ echo 60 30 | python3 quiz_1.py
+Enter two integers: 60 30
+
+The generated mapping is:
+   {1: 15, 3: 19, 5: 4, 6: 2, 7: 4, 8: 28, 10: 15, 11: 6, 12: 6, 14: 9, 15: 13, 16: 5, 18: 5, 19: 24, 21: 16, 22: 28, 24: 24, 26: 5, 28: 11}
+
+The mappings's so-called "keys" make up a set whose number of elements is 19.
+
+The list of integers between 1 and 30 that are not keys of the mapping is:
+   [2, 4, 9, 13, 17, 20, 23, 25, 27, 29, 30]
+
+Represented as a list, the mapping is:
+   [None, 15, None, 19, None, 4, 2, 4, 28, None, 15, 6, 6, None, 9, 13, 5, None, 5, 24, None, 16, 28, None, 24, None, 5, None, 11, None, None]
+
+The one-to-one part of the mapping is:
+   {3: 19, 6: 2, 14: 9, 15: 13, 21: 16, 28: 11}
+TEST 20 END
+
